@@ -28,7 +28,7 @@ Input:{[{}]  Output: False
 """
 class Solution:
     def isBalanced(self, parenthesis): 
-        return parenthesis.count("{") == parenthesis.count("}") and parenthesis.count("[") == parenthesis.count("]") and parenthesis.count("()") == parenthesis.count(")")
+        return parenthesis.count("{") == parenthesis.count("}") and parenthesis.count("[") == parenthesis.count("]") and parenthesis.count("(") == parenthesis.count(")")
 
 def main():
     str1=input()
